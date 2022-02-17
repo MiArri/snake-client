@@ -8,8 +8,8 @@ const conn = connect(() => {
   //     conn.write("Move: up");
   //   }, 100 * i);
   //   }
-
   });
+  conn.write("Say: AAAAAA");
 });
 
 console.log("Connecting ...");
